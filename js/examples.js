@@ -36,7 +36,7 @@ OnClick(element, EFFECTS); // trigger effects when you click on element with spe
 function onV1Polo1() {
     Shake(10, 500);
     Bloom(5, 500);
-    MakeConfetti(3, 0.5, 0.5, 100, 100, "custom-cursor", "asset-v1/hang.png");
+    MakeConfetti(3, 0.5, 0.5, 100, 100, "custom-cursor", "asset-v1/icon.png");
     PlaySFX("explosion.ogg");
     QuickMessage("BOOM!", 500);
 }
